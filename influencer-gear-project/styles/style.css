@@ -1,0 +1,293 @@
+/* sharred style */
+.font{
+    font-family: "poppins";
+}
+.display-flex{
+    display: flex;
+}
+
+
+/* header style */
+header{
+    max-width: 1440px;
+}
+.header{
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+.nav-item{
+    flex-direction: row;
+    gap: 34px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+transition: border-bottom 4s 0.5s;
+}
+.nav a:hover{
+    border-bottom: 5px solid black;
+
+}
+/* header and nav shesh  */
+/* banner */
+.banner{
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1140px;
+    justify-content:space-between;
+
+   
+    
+}
+.banner-container-1{
+    max-width: 542px;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 6.5rem;
+    
+}
+.banner-heading{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 2.2rem;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0px;
+}
+.banner-para{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+.banner-btn button{
+    border-radius: 41px;
+border: none;
+background: rgb(224, 44, 109);
+padding: 15px 25px;
+
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+
+}
+.banner-container-2{
+    background:url(/circle.svg);
+    background-position: center;
+    background-size:450px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.banner-container-2 img{
+ width: 100%;
+}
+.company-logos{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(170, 170, 170);
+    border-bottom: 1px solid rgb(170, 170, 170);
+    margin-top: 50px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+/* bannerand header ends */
+.products{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card-container{
+    display: grid;
+    max-width: 1140px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+}
+.heading{
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0.5px;
+
+    text-align: center;
+}
+.cards{
+    padding: 14px;
+    border-radius: 5px;
+
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+}
+.cards img{
+    width: 100%; 
+}
+.cards h1{
+    color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 1.8rem;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.cards h3{
+    color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.cards p{
+    color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 1rem;
+font-weight: 700;
+line-height: 143%;
+letter-spacing: 1.8%;
+text-align: left;
+}
+.see-more-btn{
+    margin-top: 20px;
+    text-align: right;
+  
+}
+.see-more-btn a{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+}
+.feature-container{
+    flex-direction: row;
+    gap: 96px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.feature-image{
+    max-width:440px ;
+}
+.feature-image {
+    width: 100%;
+}
+.feature-content h1{
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 2rem;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+}
+.feature-content p{
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.feature-content-btn{
+    padding: 10px 25px;
+    background: rgb(224, 44, 109);
+    border: none;
+    
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+.footer-container{
+    background:#011029;
+}
+.footer-content{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.feature-content h2{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+
+}
+.feature-content{
+    color: rgb(217, 219, 225);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .header,.nav-item,.feature-container{
+        flex-direction: column;
+    }
+    .nav-item{
+        gap: 5px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .company-logos{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card-container{
+        display: grid;
+       
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-rows: repeat(3,1fr); */
+        gap: 30px;
+    }
+    
+.see-more-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+    
+
+    
+}
